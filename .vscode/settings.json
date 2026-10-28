@@ -1,0 +1,18 @@
+{
+  "servers": {
+    "hexstrike": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "exec",
+        "-i",
+        "hexstrike-ai",
+        "/opt/hexstrike-env/bin/python",
+        "/opt/hexstrike-ai/hexstrike_mcp.py",
+        "--server",
+        "http://127.0.0.1:8888"
+      ]
+    }
+  },
+  "inputs": []
+}

@@ -1,0 +1,5 @@
+.env
+hexstrike-work/
+hexstrike-ai/__pycache__/
+hexstrike-ai/hexstrike.log
+models/*.gguf
